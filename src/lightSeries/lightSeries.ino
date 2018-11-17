@@ -2,25 +2,21 @@ int aPin = 7;
 int bPin = 8;
 int cPin = 9;
 int dPin = 10;
+int ePin = 11;
+int fPin = 12;
+
+int arr[6] = {aPin, bPin, cPin, dPin, ePin, fPin};
 
 void setup() {
-  pinMode(aPin, OUTPUT);
-  pinMode(bPin, OUTPUT);
-  pinMode(cPin, OUTPUT);
-  pinMode(dPin, OUTPUT);
+  for (int i = 0; i < 6; i++) {
+    pinMode(arr[i], OUTPUT);  
+  }
 }
 
 void loop() {
-  digitalWrite(aPin, HIGH);
-  delay(500);
-  digitalWrite(aPin, LOW);
-  digitalWrite(bPin, HIGH);
-  delay(500);
-  digitalWrite(bPin, LOW);
-  digitalWrite(cPin, HIGH);
-  delay(500);
-  digitalWrite(cPin, LOW);
-  digitalWrite(dPin, HIGH);
-  delay(500);
-  digitalWrite(dPin, LOW);
+ for (int i = 0; i < 6; i++) {
+  digitalWrite(arr[i], HIGH);
+  delay(100);
+  digitalWrite(arr[i], LOW);
+ }
 }

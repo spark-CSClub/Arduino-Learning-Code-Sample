@@ -1,4 +1,4 @@
-int pin = 13;
+int pin = 7;
 
 void setup() {
   pinMode(pin, OUTPUT);
