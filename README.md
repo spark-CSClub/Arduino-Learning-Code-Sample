@@ -1,0 +1,2 @@
+# Great China Computer Science Club Arduino Session
+GreatChina computer science club basic Arduino session starts at Nov.18 and lasts about three months.  This course is designed for club members who are going to attend robotics courses and we hope this course would cover every basic knowledge they need in that advanced course.  
